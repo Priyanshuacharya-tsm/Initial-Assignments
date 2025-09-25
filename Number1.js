@@ -38,4 +38,3 @@ const canvas = document.getElementById('drawingCanvas');
     // Clear canvas functionality
     clearBtn.addEventListener('click', () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-    });

@@ -1,0 +1,37 @@
+h1{
+    color:red;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+
+}
+.box{
+    margin-top:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#boxes{
+    height: 40vh;
+    width: 40vw;
+    background-color: red;
+}
+#boxes-black{
+    height: 300px;
+    width: 200px;
+    background-color: cadetblue;
+}
+button{
+    margin-top:10vh;
+    padding:1rem;
+    border-radius: 20px;
+    color:black;
+    background-color: white;
+}
